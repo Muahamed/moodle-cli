@@ -1,0 +1,34 @@
+{
+  "name": "moodle-cli",
+  "version": "0.0.1",
+  "readmeFilename": "README.md",
+  "description": "A command-line tool for building and testing the moodle environment",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/lu-dev/moodle-cli"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "moodle": "./bin/moodle.js"
+  },
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "commander": "^2.15.0",
+    "conf": "^1.4.0",
+    "docker-composer-manager": "^0.1.3",
+    "fs-extra": "^5.0.0",
+    "inquirer": "^5.2.0",
+    "progress": "^2.0.0",
+    "rsync": "^0.6.1",
+    "simple-git": "^1.92.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5",
+    "sinon": "^4.5.0"
+  }
+}
